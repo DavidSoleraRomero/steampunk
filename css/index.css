@@ -8,18 +8,45 @@
 
 /* Fonts */
 
-
+@font-face {
+    font-family: titulos;
+    src: url('../fonts/Jack\ of\ Gears\ Regular.ttf');
+}
 
 /* General layout */
 
+* {box-sizing: border-box;} /* preguntar */
 
+body{margin:0;padding:0; /* quitamos por defectos */
+    font-family: textos; /* familia de texto */
+}
+
+h1,h2,h3{
+    font-family: titulos;
+}
+
+#wrapper {width:80%;
+        margin:auto;}
 
 /* Header / Nav */
 
 
 
 /* Sections */
-
-
-
+/* Hero Section */
+#hero {
+    background-image: url(../img/img7.jpg);
+    height: 98.5vh;
+    background-repeat: no-repeat;
+    background-position: 51.5%;
+    background-size: cover;
+}
+#hero h1 {
+    text-align: center;
+    color: #F7E9C0;
+    margin: 0;
+    padding-top: 10%;
+    padding-left: 2.35%;
+    font-size: 5em;
+}
 /* Footer */
