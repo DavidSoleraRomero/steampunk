@@ -107,7 +107,7 @@ nav .sw {
 
 /* Navigation bar --> Media Queries */
 
-@media screen and (max-width: 970px) {
+@media screen and (max-width: 950px) {
     .miNav a:not(:first-child) {display: none;}
     .miNav a.icon {
     font-size: 42.5px;
@@ -125,7 +125,7 @@ nav .sw {
         padding-bottom: 22.5px;
     }
 }
-@media screen and (max-width: 970px) {
+@media screen and (max-width: 950px) {
     .miNav.responsive {position: relative;}
     .miNav.responsive a.icon {
     position: absolute;
