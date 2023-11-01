@@ -24,7 +24,7 @@
 
 body{margin:0;padding:0; /* quitamos por defectos */
     font-family: textos; /* familia de texto */
-    font-size: 2rem;
+    font-size: 1.8rem;
     background-color: black;
     color: #ffe2ab;
     background-image: url('../img/patronengranajes.jpg');
@@ -91,7 +91,7 @@ nav #ai {
     transform: translate(-50%, -50%);
     text-align: center;
     position: absolute;
-    font-size: 4.75rem;
+    font-size: 4.4rem;
 }
 #hero button {
     transform: translate(-50%, -50%);
