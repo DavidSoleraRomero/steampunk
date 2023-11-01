@@ -56,22 +56,66 @@ button {
 }
 
 /* Header / Nav */
+
 nav {
     background-color: #02080c;
-    
+    position: sticky;
+    top:0;
+    z-index: 999;
+    overflow: hidden;
 }
 
 nav a {
-    text-decoration: none;
     color: #ffe2ab;
+    text-decoration: none;
     padding-right: 2px;
+    float: left;
+    display: block;
+    text-align: left;
+    padding: 0px 16px;
+    font-weight: bold;
+    margin-bottom: 7px;
+    padding-bottom: 15px;
+    padding-top: 27px;
 }
 
-nav #ai {
-    padding-right: 15px;
-    padding-left: 5px;
+nav #sw {
+    padding-right: 30px;
+    padding-left: 25px;
+}
+    
+.miNav .icon {
+    display: none;
+    padding:0px;
+    margin-top: 19.75px;
+    padding-right: 22px;
 }
 
+/* Navigation bar --> Media Queries */
+
+@media screen and (max-width: 820px) {
+    .miNav a:not(:first-child) {display: none;}
+    .miNav a.icon {
+    font-size: 37.5px;
+    float: right;
+    display: block;
+}
+    nav .sw {
+        padding-left: 25px;
+}
+}
+@media screen and (max-width: 820px) {
+    .miNav.responsive {position: relative;}
+    .miNav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+    .miNav.responsive a {
+    float: none;
+    display: block;
+}
+}
 
 /* Sections */
 /* Hero Section */
