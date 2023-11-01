@@ -86,8 +86,8 @@ nav a:hover {
 nav #sw {
     padding-right: 22.5px;
     border-right: 2px solid #ffe2ab;
-    padding-left: 22.5px;
-    font-size: 2.55rem;
+    padding-left: 20px;
+    font-size: 2.45rem;
     padding-top: 25px;
     font-family: titulos;
 }
@@ -115,14 +115,14 @@ nav .sw {
     display: block;
 }
     nav .sw {
-        padding-left: 22.5px;
+        padding-left: 20px;
         margin-left: 0px;
 }
     nav #sw {
         border: none;
     }
     nav #last {
-        padding-bottom: 20px;
+        padding-bottom: 22.5px;
     }
 }
 @media screen and (max-width: 970px) {
