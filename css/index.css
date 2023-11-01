@@ -99,8 +99,8 @@ nav #ai {
     position: absolute;
     top: 84.25vh;
     left: 51%;
-    font-size: 2rem;
-    padding: 12.5px 25px;
+    font-size: 1.8rem;
+    padding: 12.5px 27.5px;
     color: #ffe2ab;
     background: radial-gradient(circle, rgba(114,52,3,1) 0%, rgba(79,35,1,1) 100%);
     border-radius: 15px;
