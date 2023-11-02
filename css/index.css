@@ -77,11 +77,6 @@ nav a {
     padding-bottom: 16px;
 }
 
-nav a:hover {
-    transition: 0.7s;
-    color: #f0b850;
-}
-
 nav #sw {
     padding-right: 22.5px;
     border-right: 2px solid #ffe2ab;
@@ -108,7 +103,11 @@ nav #sw:after {
 nav #sw:hover {
     transform-origin: center bottom;
     transform: rotateX(-90deg) translateY(100%);
+}
 
+nav a:hover {
+    transition: 0.75s;
+    color: #e7a731;
 }
 
 nav .sw {
