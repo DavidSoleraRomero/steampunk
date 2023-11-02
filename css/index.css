@@ -166,7 +166,7 @@ nav .sw {
 /* Hero Section */
 #hero {
     background-image: url(../img/img7.jpg);
-    height: 91.75vh;
+    height: 92vh;
     background-repeat: no-repeat;
     background-position: 51.80%;
     background-size: cover;
@@ -220,7 +220,7 @@ nav .sw {
         width: 92.5%;
     }
     #hero {
-        height: 89.75vh;
+        height: 90.4vh;
     }
     #hero h1 {
         font-size: 3.9rem;
