@@ -141,6 +141,10 @@ nav .sw {
         border: none;
         font-size: 2.10rem;
     }
+    nav #sw:after {
+        text-align: left;
+        padding-left: 15px;
+    }
     nav #last {
         padding-bottom: 22.5px;
     }
