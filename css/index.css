@@ -47,10 +47,11 @@ h2 {
         background-color: #02080c;
 }
 
-img {box-shadow: 0px 0px 16px 0.7px #ffc15e;}
+img {box-shadow: 0px 0px 17.5px 0.75px #f5b349;}
 
-img:hover {box-shadow: 0px 0px 41px 1px rgb(247, 175, 59);
-        transition: 0.8s;}
+img:hover {box-shadow: 0px 0px 45px 1px rgb(245, 170, 50);
+        transition: 1.1s;
+    }
 
 html {
     scroll-behavior: smooth;
@@ -81,7 +82,6 @@ nav a {
     font-weight: bold;
     padding-bottom: 16px;
 }
-
 nav #sw {
     padding-right: 22.5px;
     border-right: 2px solid #ffe2ab;
@@ -92,7 +92,6 @@ nav #sw {
     transition: all .5s ease;
     transform-style: preserve-3d;
 }
-
 nav #sw:after {
     content: "TAKE ME HOME";
     position: absolute;
@@ -104,24 +103,20 @@ nav #sw:after {
     transform: rotateX(90deg);
     padding-bottom: 16px;
 }
-
 nav #sw:hover {
     transform-origin: center bottom;
     transform: rotateX(-90deg) translateY(100%);
 }
-
 nav a:hover {
     transition: 0.75s;
     color: #e7a731;
 }
-
 nav .sw {
     padding-top: 29.5px;
     font-size: 1.75rem;
     margin-right: 12px;
     float: right;
 }
-    
 .miNav .icon {
     display: none;
     padding:0px;
@@ -209,29 +204,68 @@ nav .sw {
 #concept .container {
     display: grid;
     grid-template-columns: 50% 50%;
-}
-
-#concept #imagenconcept img{
-    width: 100%;
-    margin-top: 14%;
-    box-shadow: 2px;
-    border-radius: 15px 32.5px 15px 32.5px;
-}
-
-#concept .container {
     margin-top: 75px;
-    padding-bottom: 75px;
+    padding-bottom: 85px;
     padding-left: 50px;
     padding-top: 50px;
     padding-right: 50px;
     text-align: justify;
 }
-
+#concept #imagenconcept img{
+    width: 100%;
+    margin-top: 14%;
+    box-shadow: 2px;
+    border-radius: 10px 50px 10px 50px ;
+}
 #concept .texto {
     margin-top: 7%;
     padding-left: 50px;
 }
 
+/* Transitory image */
+#imagentransitoria {
+    background: fixed no-repeat;
+    background-image: url(../img/img10.png);
+    background-size: cover;
+    height: 55vh;
+    box-shadow: 0px 0px 11px 0.75px #f5b349;
+    background-position: 48.5%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4.925%;
+}
+#imagentransitoria:hover {
+    box-shadow: 0px 0px 40px 0.95px rgb(245, 170, 50);
+            transition: 1.1s;
+}
+#imagentransitoria img {
+    width: 90%;
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Technology */
+#technology .container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-bottom: 75px;
+    padding-left: 50px;
+    padding-top: 85px;
+    padding-right: 50px;
+    text-align: justify;
+}
+
+#technology img {
+    width:  100%;
+    border-radius: 50px 10px 50px 10px;
+}
+
+#technology .texto {
+    padding-right: 50px;
+}
 
 /* Footer */
 
@@ -247,8 +281,9 @@ nav .sw {
 
 @media only screen and (width < 1533px) { 
     #concept #imagenconcept img{
-        margin-top: 22.5%;
-    }
+        margin-top: 22.5%;}
+    #technology img {
+        margin-top: 13%;}
     #concept .texto {
         margin-top: 1%;
     }
@@ -258,6 +293,8 @@ nav .sw {
     #concept #imagenconcept img{
         margin-top: 36.5%;
     }
+    #technology img {
+        margin-top: 25%;}
     #concept .texto {
         margin-top: 0%;
     }
@@ -266,19 +303,42 @@ nav .sw {
 @media only screen and (width < 1050px) { 
     #concept .container { 
         grid-template-columns: 100%;
+        padding-bottom: 17.5px;
+    }
+    #technology .container {
+        grid-template-columns: 100%;
+        padding-top: 17.5px;
     }
     #concept #imagenconcept img{
-        padding-right: 0px;
         margin-top: 0%;
     }
+    #technology img {
+        margin-top: 0%;}
     #concept .texto {
         padding-left: 0px;
+        padding-top: 7.5%;
+    }
+    #technology .texto {
+        padding-right: 0px;
+    }
+    #imagentransitoria img {
+        width: 85%;
+    }
+    #imagentransitoria {
+        background-image: none;
+        box-shadow: none;    
+    }
+    #imagentransitoria img {
+        display:block;
+    }
+    #imagentransitoria:hover {
+        box-shadow: inherit;
     }
 }
 
 @media only screen and (width < 750px) { 
     #wrapper {
-        width: 92.5%;
+        width: 95%;
     }
     #hero {
         height: 90.4vh;
@@ -288,6 +348,15 @@ nav .sw {
     }
     #hero button {
         font-size: 1.65rem;
+    }
+    #technology .container {
+        padding-top: 0px;
+    }
+    #concept .container {
+        padding-bottom: 0px;
+    }
+    #imagentransitoria img {
+        width: 80%;
     }
 }
 
