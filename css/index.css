@@ -113,7 +113,8 @@ nav a:hover {
 nav .sw {
     padding-top: 29.5px;
     font-size: 1.75rem;
-    margin-left: 12px;
+    margin-right: 12px;
+    float: right;
 }
     
 .miNav .icon {
@@ -198,6 +199,32 @@ nav .sw {
     transition: 0.7s;
     color: #e0a537;
 }
+/* Concept */
+#concept .container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#concept #imagenconcept img{
+    width: 100%;
+    padding-right: 50px;
+    margin-top: 14%;
+}
+
+#concept .container {
+    margin-top: 75px;
+    padding-bottom: 75px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
+    text-align: justify;
+}
+
+#concept .texto {
+    margin-top: 7%;
+}
+
+
 /* Footer */
 
 
@@ -210,8 +237,32 @@ nav .sw {
     }
 }
 
-@media only screen and (width < 1000px) { 
-    
+@media only screen and (width < 1533px) { 
+    #concept #imagenconcept img{
+        margin-top: 22.5%;
+    }
+    #concept .texto {
+        margin-top: 1%;
+    }
+}
+
+@media only screen and (width < 1260px) { 
+    #concept #imagenconcept img{
+        margin-top: 36.5%;
+    }
+    #concept .texto {
+        margin-top: 0%;
+    }
+}
+
+@media only screen and (width < 1050px) { 
+    #concept .container { 
+        grid-template-columns: 100%;
+    }
+    #concept #imagenconcept img{
+        padding-right: 0px;
+        margin-top: 0%;
+    }
 }
 
 @media only screen and (width < 750px) { 
@@ -227,4 +278,8 @@ nav .sw {
     #hero button {
         font-size: 1.65rem;
     }
+}
+
+@media only screen and (width < 600px) { 
+
 }
