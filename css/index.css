@@ -39,6 +39,7 @@ h2 {
     padding-top: 15px;
     padding-bottom: 30px;
     text-align: center;
+    color: #E4BC69;
 }
 
 #wrapper {width: 76%;
@@ -46,6 +47,10 @@ h2 {
         background-color: #02080c;
 }
 
+img {box-shadow: 0px 0px 16px 0.7px #ffc15e;}
+
+img:hover {box-shadow: 0px 0px 41px 1px rgb(247, 175, 59);
+        transition: 0.8s;}
 
 html {
     scroll-behavior: smooth;
@@ -199,6 +204,7 @@ nav .sw {
     transition: 0.7s;
     color: #e0a537;
 }
+
 /* Concept */
 #concept .container {
     display: grid;
@@ -207,8 +213,9 @@ nav .sw {
 
 #concept #imagenconcept img{
     width: 100%;
-    padding-right: 50px;
     margin-top: 14%;
+    box-shadow: 2px;
+    border-radius: 15px 32.5px 15px 32.5px;
 }
 
 #concept .container {
@@ -222,6 +229,7 @@ nav .sw {
 
 #concept .texto {
     margin-top: 7%;
+    padding-left: 50px;
 }
 
 
@@ -262,6 +270,9 @@ nav .sw {
     #concept #imagenconcept img{
         padding-right: 0px;
         margin-top: 0%;
+    }
+    #concept .texto {
+        padding-left: 0px;
     }
 }
 
