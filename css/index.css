@@ -170,8 +170,8 @@ nav .sw {
 .voltage-button svg {
     display: block;
     position: absolute;
-    left: 45.95%;
-    top: 77.25vh;
+    left: 46.4%;
+    top: 77.5vh;
     width: 176.75px;
     height: 75px;
     pointer-events: none;
@@ -306,7 +306,10 @@ nav .sw {
 
 /* Media Queries y Media Queries del Hero Button (Era necesario realizarlo así para no crear aún más Medias Queries) 
 /* Media Queries específicas de Hero Button Hover */
-@media only screen and (width < 1675px) {.voltage-button svg {left: 45.5%;}}
+@media only screen and (width < 1875px) {.voltage-button svg {left: 46.2%; top: 77.25vh;}}
+@media only screen and (width < 1835px) {.voltage-button svg {left: 46%; top: 77.25vh;}}
+@media only screen and (width < 1750px) {.voltage-button svg {left: 45.67%; top: 77.25vh;}}
+@media only screen and (width < 1675px) {.voltage-button svg {left: 45.47%; top: 77.25vh;}}
 /* Media Queries */
 @media only screen and (width < 1625px) { 
     #hero button {top: 77vh;}
