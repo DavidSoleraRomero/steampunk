@@ -159,7 +159,8 @@ nav .sw {
     color: #ffe2ab;
     background: radial-gradient(circle, rgba(114,52,3,1) 0%, rgba(79,35,1,1) 100%);
     border-radius: 15px;
-    border: 3.85px solid;}
+    border: 3.85px solid;
+    z-index: 1;}
 
 /* Button hover  */
 
@@ -168,21 +169,24 @@ nav .sw {
 #hero button:hover {
     border-color: #755720;
     color: #db930d;
-    transition: 2s;}
+    transition: 2s;
+    }
 
-.voltage-button button:hover + svg, .voltage-button button:hover + svg + .dots {opacity: 1;}
+.voltage-button button:hover + svg, .voltage-button button:hover + svg + .dots {opacity: 1; }
 
 .voltage-button svg {
     display: block;
     position: absolute;
-    left: 45.9%;
-    top: 77.75vh;
+    top: 81.5vh;
+    left: 50.5%;
+    transform: translate(-50%, -50%);
     width: 176.75px;
     height: 75px;
     pointer-events: none;
     opacity: 0;
     transition: opacity 0.4s;
-    transition-delay: 0.05s;}
+    transition-delay: 0.05s;
+    z-index: 2;}
 
 .voltage-button svg path {stroke-dasharray: 100; filter: url("#glow");}
 
@@ -309,37 +313,19 @@ nav .sw {
 /* Footer */
 
 
-/* Media Queries y Media Queries del Hero Button (Era necesario realizarlo así para no crear aún más Medias Queries) 
-/* Media Queries específicas de Hero Button Hover */
-@media only screen and (width < 1835px) {.voltage-button svg {left: 45.6%;}}
-@media only screen and (width < 1750px) {.voltage-button svg {left: 45.3%;}}
-@media only screen and (width < 1675px) {.voltage-button svg {left: 45%;}}
 /* Media Queries */
 @media only screen and (width < 1625px) { 
     #hero button {top: 77vh;}
-    .voltage-button svg {left: 45%; top: 73.25vh;}}
-/* Media Queries */
+    .voltage-button svg{top:77vh;}}
 @media only screen and (width < 1533px) { 
     #concept #imagenconcept img{margin-top: 22.5%;}
     #technology img {margin-top: 13%;}
-    #concept .texto {margin-top: 1%;}
-    .voltage-button svg {left: 44.525%;}}
-/* Media Queries específicas de Hero Button Hover */
-@media only screen and (width < 1390px) {.voltage-button svg {left: 44.4%;}}
-@media only screen and (width < 1350px) {.voltage-button svg {left: 44%;}}
-/* Media Queries */
+    #concept .texto {margin-top: 1%;}}
 @media only screen and (width < 1260px) { 
     #concept #imagenconcept img{margin-top: 36.5%;}
-    .voltage-button svg {left: 43.6%;}
     #technology img {margin-top: 25%;}
     #concept .texto {margin-top: 0%;}}
-/* Media Queries específicas de Hero Button Hover */
-@media only screen and (width <= 1200px) { .voltage-button svg {left: 43.1%;}}
-@media only screen and (width <= 1155px) { .voltage-button svg {left: 42.7%;}}
-@media only screen and (width <= 1105px) { .voltage-button svg {left: 42.35%;}}
-/* Media Queries */
 @media only screen and (width <= 1050px) {
-    .voltage-button svg {display: none;}
     #technology .container { 
         grid-template-columns: 100%;
         padding-bottom: 15px;}
@@ -362,7 +348,6 @@ nav .sw {
         box-shadow: none;
         margin-top: 5px;}
     #imagentransitoria:hover {box-shadow: inherit;}}
-/* Media Queries */
 @media only screen and (width <= 900px) {
     h2 {font-size: 2.1rem;}
     p {font-size: 1.7rem;}
@@ -372,11 +357,7 @@ nav .sw {
         background-position: 51.80%;
         background-size: cover;
         background-image: url(../img/img7.jpg);}}
-/* Media Queries */
 @media only screen and (width <= 750px) {
-    .voltage-button svg {
-        left: 39%;
-        width: 175px;} 
     #wrapper {width: 95%;}
     #hero h1 {font-size: 3.75rem;}
     #technology .container {padding-top: 0px;}
