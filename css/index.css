@@ -179,7 +179,7 @@ nav .sw {
     position: absolute;
     top: 81.5vh;
     left: 50.5%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); /* Si lees esto Pilar, que sepas que perdí 2 horas modificando cosas sin acordarme de transform */
     width: 176.75px;
     height: 75px;
     pointer-events: none;
