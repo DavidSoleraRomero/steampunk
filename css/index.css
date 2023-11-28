@@ -126,7 +126,7 @@ nav .sw {
 
 /* Navigation bar --> Media Queries */
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 900px) {
     .miNav a:not(:first-child) {display: none;}
     .miNav a.icon {
     font-size: 41px;
@@ -149,7 +149,7 @@ nav .sw {
         padding-bottom: 22.5px;
     }
 }
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 900px) {
     .miNav.responsive {position: relative;}
     .miNav.responsive a.icon {
     position: absolute;
@@ -165,6 +165,7 @@ nav .sw {
 /* Sections */
 /* Hero Section */
 #hero {
+    background: fixed no-repeat;
     background-image: url(../img/img7.jpg);
     height: 92vh;
     background-repeat: no-repeat;
@@ -200,16 +201,21 @@ nav .sw {
     color: #e0a537;
 }
 
-/* Concept */
-#concept .container {
+/* Common things - Concept and Technology */
+
+#concept .container, #technology .container {
     display: grid;
     grid-template-columns: 50% 50%;
-    margin-top: 75px;
-    padding-bottom: 85px;
     padding-left: 50px;
-    padding-top: 50px;
     padding-right: 50px;
     text-align: justify;
+}
+
+/* Concept */
+#concept .container {
+    margin-top: 75px;
+    padding-bottom: 85px;
+    padding-top: 50px;
 }
 #concept #imagenconcept img{
     width: 100%;
@@ -249,13 +255,8 @@ nav .sw {
 
 /* Technology */
 #technology .container {
-    display: grid;
-    grid-template-columns: 50% 50%;
     padding-bottom: 75px;
-    padding-left: 50px;
     padding-top: 85px;
-    padding-right: 50px;
-    text-align: justify;
 }
 
 #technology img {
@@ -301,47 +302,46 @@ nav .sw {
 }
 
 @media only screen and (width < 1050px) { 
-    #concept .container { 
+    #technology .container { 
         grid-template-columns: 100%;
-        padding-bottom: 17.5px;
-    }
-    #technology .container {
-        grid-template-columns: 100%;
-        padding-top: 17.5px;
-    }
+        padding-bottom: 17.5px;}
+    #concept .container {
+    grid-template-columns: 100%;
+        padding-bottom: 17.5px;}
     #concept #imagenconcept img{
-        margin-top: 0%;
-    }
+        margin-top: 0%;}
     #technology img {
         margin-top: 0%;}
     #concept .texto {
         padding-left: 0px;
-        padding-top: 7.5%;
-    }
+        padding-top: 2.75%;}
     #technology .texto {
-        padding-right: 0px;
-    }
+        padding-right: 0px;}
     #imagentransitoria img {
         width: 85%;
-    }
+        display:block;
+        margin-bottom: 0;
+        padding-bottom: 0;}
     #imagentransitoria {
         background-image: none;
-        box-shadow: none;    
-    }
-    #imagentransitoria img {
-        display:block;
-    }
+        box-shadow: none;
+        margin-top: 5px;}
     #imagentransitoria:hover {
-        box-shadow: inherit;
+        box-shadow: inherit;}
+}
+@media only screen and (width <= 900px) {
+    #hero {
+        height: 90.4vh;
+        background: initial;
+        background-position: 51.80%;
+        background-size: cover;
+        background-image: url(../img/img7.jpg);
     }
 }
 
 @media only screen and (width < 750px) { 
     #wrapper {
         width: 95%;
-    }
-    #hero {
-        height: 90.4vh;
     }
     #hero h1 {
         font-size: 3.9rem;
@@ -354,6 +354,10 @@ nav .sw {
     }
     #concept .container {
         padding-bottom: 0px;
+    }
+    #imagentransitoria {
+        margin-top: 0;
+        margin-bottom: 0;
     }
     #imagentransitoria img {
         width: 80%;
