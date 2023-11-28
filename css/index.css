@@ -166,8 +166,8 @@ nav .sw {
 .voltage-button button:hover {cursor: pointer;}
 
 #hero button:hover {
-    border-color: #99793e;
-    color: #e7a731;
+    border-color: #755720;
+    color: #db930d;
     transition: 2s;}
 
 .voltage-button button:hover + svg, .voltage-button button:hover + svg + .dots {opacity: 1;}
@@ -339,7 +339,7 @@ nav .sw {
 @media only screen and (width <= 1105px) { .voltage-button svg {left: 42.35%;}}
 /* Media Queries */
 @media only screen and (width <= 1050px) {
-    .voltage-button svg {left: 41.9%;} 
+    .voltage-button svg {display: none;}
     #technology .container { 
         grid-template-columns: 100%;
         padding-bottom: 15px;}
@@ -362,12 +362,8 @@ nav .sw {
         box-shadow: none;
         margin-top: 5px;}
     #imagentransitoria:hover {box-shadow: inherit;}}
-/* Media Queries específicas de Hero Button Hover */
-@media only screen and (width <= 975px) { .voltage-button svg {left: 41.575%;}}
-@media only screen and (width <= 935px) { .voltage-button svg {left: 41.25%;}}
 /* Media Queries */
 @media only screen and (width <= 900px) {
-    .voltage-button svg {left: 40.8%;}
     h2 {font-size: 2.1rem;}
     p {font-size: 1.7rem;}
     #hero {
@@ -376,10 +372,6 @@ nav .sw {
         background-position: 51.80%;
         background-size: cover;
         background-image: url(../img/img7.jpg);}}
-/* Media Queries específicas de Hero Button Hover */
-@media only screen and (width <= 865px) {.voltage-button svg {left: 40.4%;}}
-@media only screen and (width <= 835px) {.voltage-button svg {left: 39.9%;}}
-@media only screen and (width <= 800px) {.voltage-button svg {left: 39.45%;}}
 /* Media Queries */
 @media only screen and (width <= 750px) {
     .voltage-button svg {
@@ -393,12 +385,3 @@ nav .sw {
         margin-top: 0;
         margin-bottom: 0;}
     #imagentransitoria img {width: 80%;}}
-/* Media Queries específicas de Hero Button Hover */
-@media only screen and (width <= 695px) {.voltage-button svg {left: 38%;}}
-@media only screen and (width <= 652.5px) {.voltage-button svg {left: 37%;} }
-@media only screen and (width <= 600px) {.voltage-button svg {left: 36%;} }
-@media only screen and (width <= 570px) {.voltage-button svg {left: 35%;} }
-@media only screen and (width <= 529px) {.voltage-button svg {left: 33.3%;} }
-@media only screen and (width <= 480px) {.voltage-button svg {left: 31.05%;} }
-@media only screen and (width < 427.5px) {.voltage-button svg {left: 29%;} }
-@media only screen and (width < 385px) {.voltage-button svg {left: 26.5%;} }
