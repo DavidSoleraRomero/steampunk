@@ -99,7 +99,7 @@ nav .sw {
 .miNav .icon {
     display: none;
     padding:0px;
-    margin-top: 17.925px;
+    margin-top: 19.8px;
     padding-right: 22px;}
 
 /* Navigation bar --> Media Queries */
@@ -108,7 +108,7 @@ nav .sw {
     .miNav a:not(:first-child) {display: none;}
 
     .miNav a.icon {
-    font-size: 40px;
+    font-size: 35px;
     float: right;
     display: block;}
 
@@ -470,11 +470,11 @@ footer .navbar a:hover {
 
     footer .container {padding-top: 18px; padding-bottom: 18px;}
     
-    footer .navbar a{font-size: 1.65rem;}
+    footer .navbar a{font-size: 1.51rem;}
 
-    footer .redes {font-size: 1.325rem;}
+    footer .redes {font-size: 1.33rem;}
 
-    footer .creditos button {font-size: 1.8rem;}}
+    footer .creditos button {font-size: 1.65rem;}}
 
 @media only screen and (width < 1260px) { 
     #concept #imagenconcept img{margin-top: 36.5%;}
@@ -485,7 +485,7 @@ footer .navbar a:hover {
 
 @media only screen and (width < 1055px) {
     footer .redes {
-        font-size: 1.275rem;
+        font-size: 1.2rem;
         margin-right: 40px;
         margin-top: 2.75%;}
 
@@ -557,7 +557,7 @@ footer .navbar a:hover {
 
     #hero h1 {font-size: 3.2rem;}
 
-    nav #sw {font-size: 1.6rem;}
+    nav #sw {font-size: 1.475rem;}
 
     #hero button {font-size: 1.2rem;}
 
