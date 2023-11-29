@@ -340,6 +340,7 @@ nav .sw {
     #technology img {margin-top: 25%;}
     #concept .texto {margin-top: 0%;}}
 @media only screen and (width <= 1050px) {
+    #concept .container, #technology .container {padding-left: 35px; padding-right: 35px;}
     #technology .container { 
         grid-template-columns: 100%;
         padding-bottom: 15px;}
@@ -360,11 +361,11 @@ nav .sw {
     #imagentransitoria {
         background-image: none;
         box-shadow: none;
-        margin-top: 5px;}
+        margin-top: 30px;}
     #imagentransitoria:hover {box-shadow: inherit;}}
 @media only screen and (width <= 900px) {
-    h2 {font-size: 2.1rem;}
-    p {font-size: 1.7rem;}
+    h2 {font-size: 1.95rem;}
+    p {font-size: 1.55rem;}
     #hero {
         height: 90.4vh;
         background: initial;
@@ -372,11 +373,15 @@ nav .sw {
         background-size: cover;
         background-image: url(../img/img7.jpg);}}
 @media only screen and (width <= 750px) {
+    #concept .container, #technology .container {padding-left: 22.5px; padding-right: 22.5px;}
     #wrapper {width: 95%;}
-    #hero h1 {font-size: 3.75rem;}
-    #technology .container {padding-top: 0px;}
+    #hero h1 {font-size: 3.5rem;}
+    nav #sw {font-size: 1.85rem;}
+    #hero button {font-size: 1.2rem;}
+    .voltage-button svg {width: 157px; height: 67px;}
+    #technology .container {padding-top: 27.5px;}
     #concept .container {padding-bottom: 0px;}
     #imagentransitoria {
         margin-top: 0;
         margin-bottom: 0;}
-    #imagentransitoria img {width: 80%;}}
+    #imagentransitoria img {width: 80%; margin-bottom: 16px; margin-top: 27px;}}
