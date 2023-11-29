@@ -13,7 +13,7 @@ Steampunk is an aesthetic genre that combines retro-futuristic elements, 19th-ce
 - 🎩 **Concept and Style:** Learn about the origins of Steampunk concept and its distinctive visual style.
 - 🚂 **Steampunk Technology:** Explore ingenious technological creations that drive this retro-futuristic world.
 - 📖 **Literature and Film - Culture:** Discover the novels, movies, and series that have immortalized Steampunk. 
-- 🎨 **Steampunk Art:** Marvel at illustrations, sculptures, and designs that capture the essence of Steampunk. You'll see some cards that can show you the Steampunk power.
+- 🎨 **Steampunk Art:** Marvel at illustrations, sculptures, and designs that capture the essence of Steampunk. <br>You'll see some cards that can show you the Steampunk power.
 
 Thank you for exploring this fascinating retro-futuristic world, and hope that I can see you on my website!
 
