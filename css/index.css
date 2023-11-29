@@ -451,6 +451,7 @@ footer .navbar a:hover {
 .fa-instagram {
     background: linear-gradient(107deg, rgba(249,206,52,1) 0%, rgba(238,42,123,1) 50%, #6228d7 100%);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     color: transparent;}
 
