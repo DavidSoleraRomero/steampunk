@@ -33,9 +33,7 @@ h2 {
     text-align: center;
     color: #E4BC69;}
 
-p {
-    font-size: 1.8rem;
-}
+p {font-size: 1.8rem;}
 
 #wrapper {width: 76%; margin:auto; background-color: #02080c;}
 
@@ -45,12 +43,10 @@ img:hover {box-shadow: 0px 0px 45px 1px rgb(245, 170, 50); transition: 1.1s;}
 
 html {scroll-behavior: smooth;}
 
-button {font-family: textos;}
-
 /* Header / Nav */
 
 nav {
-    background-color: #02080c;
+    background-color: hsl(205, 75%, 3%, 0.95);
     position: sticky;
     top:0;
     z-index: 999;
@@ -66,6 +62,7 @@ nav a {
     padding: 0px 16px;
     font-weight: bold;
     padding-bottom: 16px;}
+
 nav #sw {
     padding-right: 22.5px;
     border-right: 2px solid #ffe2ab;
@@ -75,6 +72,7 @@ nav #sw {
     font-family: titulos;
     transition: all .5s ease;
     transform-style: preserve-3d;}
+
 nav #sw:after {
     content: "TAKE ME HOME";
     position: absolute;
@@ -85,15 +83,19 @@ nav #sw:after {
     transform-origin: left bottom;
     transform: rotateX(90deg);
     padding-bottom: 16px;}
+
 nav #sw:hover {
     transform-origin: center bottom;
     transform: rotateX(-90deg) translateY(100%);}
+
 nav a:hover {transition: 0.75s; color: #e7a731;}
+
 nav .sw {
     padding-top: 29.5px;
     font-size: 1.75rem;
     margin-right: 12px;
     float: right;}
+
 .miNav .icon {
     display: none;
     padding:0px;
@@ -104,46 +106,49 @@ nav .sw {
 
 @media screen and (max-width: 900px) {
     .miNav a:not(:first-child) {display: none;}
+
     .miNav a.icon {
     font-size: 40px;
     float: right;
     display: block;}
+
     nav .sw {
         padding-left: 15px;
         margin-left: 0px;}
+
     nav #sw {
         border: none;
         font-size: 1.78rem;
         margin-top: 2.5px}
+
     nav #sw:after {
         text-align: left;
         padding-left: 15px;}
+
     nav #last {padding-bottom: 22.5px;}}
 @media screen and (max-width: 900px) {
     .miNav.responsive {position: relative;}
+
     .miNav.responsive a.icon {
     position: absolute;
     right: 0;
     top: 0;}
+
     .miNav.responsive a {
     float: none;
-    display: block;
-}}
-
-/* Navigation bar --> Hover */
-
-
+    display: block;}}
 
 /* Sections */
 /* Hero Section */
 #hero {
     background: fixed no-repeat;
     background-image: url(../img/img7.jpg);
-    height: 92vh;
+    height: 94.1vh;
     background-repeat: no-repeat;
     background-position: 51.80%;
     background-size: cover;
     position: relative;}
+
 #hero h1 {
     color: #fddb9a;
     margin: 0;
@@ -153,6 +158,8 @@ nav .sw {
     text-align: center;
     position: absolute;
     font-size: 4.2rem;}
+
+/* Hero button */
 #hero button {
     transform: translate(-50%, -50%);
     text-align: center;
@@ -166,6 +173,7 @@ nav .sw {
     background: radial-gradient(circle, rgba(114,52,3,1) 0%, rgba(79,35,1,1) 100%);
     border-radius: 15px;
     border: 3.85px solid;
+    font-family: textos;
     z-index: 1;}
 
 /* Button hover  */
@@ -184,17 +192,16 @@ nav .sw {
     transition: 2.25s;
     animation-name: boton;
     animation-duration: 3s;
-    animation-iteration-count: infinite;
-    }
+    animation-iteration-count: infinite;}
 
-.voltage-button button:hover + svg, .voltage-button button:hover + svg + .dots {opacity: 1; }
+.voltage-button button:hover + svg, .voltage-button button:hover + svg + .dots {opacity: 1;}
 
 .voltage-button svg {
     display: block;
     position: absolute;
     top: 81.5vh;
     left: 50.5%;
-    transform: translate(-50%, -50%); /* Si lees esto Pilar, que sepas que perdí 2 horas modificando cosas sin acordarme de transform */
+    transform: translate(-50%, -50%);
     width: 176.75px;
     height: 70px;
     pointer-events: none;
@@ -287,14 +294,16 @@ nav .sw {
     margin-top: 75px;
     padding-bottom: 70px;
     padding-top: 50px;}
+
 #concept #imagenconcept img{
     width: 100%;
     margin-top: 14%;
     box-shadow: 2px;
     border-radius: 10px 50px 10px 50px ;}
+
 #concept .texto {margin-top: 7%; padding-left: 50px;}
 
-/* Transitory image */
+/* Transitory image between Concept and Technology sections */
 #imagentransitoria {
     background: fixed no-repeat;
     background-image: url(../img/img10.png);
@@ -325,64 +334,248 @@ nav .sw {
 
 #technology .texto {padding-right: 50px;}
 
+/* Culture */
+
+
+
+/* Art */
+
+
+
 /* Footer */
 
+footer .container {
+    display:grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(8, 6, 2);}
 
-/* Media Queries */
+/* Footer credits */
+footer .creditos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;}
+
+footer .creditos button {
+    padding: 10px 17.5px;
+    padding-bottom: 5.25px;
+    border-radius: 10px;
+    font-family: titulos;
+    font-size: 2.5rem;
+}
+
+footer .creditos a {text-decoration: none;}
+
+/* Footer button hover credits */
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 7.5px;
+    background-color: #F5E5AA;
+    color: rgb(19, 19, 19);
+    border: none;
+    position: relative;
+    cursor: pointer;
+    transition-duration: .2s;
+    box-shadow: 2.5px 2.5px 8px rgba(230, 220, 168, 0.75);
+    transition-duration: .5s;
+}
+
+.svgIcon {
+    height: 25px;
+    transition-duration: 2.7s;
+}
+
+.bell path {
+    fill: rgb(19, 19, 19);
+}
+
+.button:hover {
+    background-color: #ddac4b;
+    transition-duration: 1.75s;
+    box-shadow: 2.75px 2.75px 12px rgba(233, 208, 86, 0.75);}
+
+.button:active {
+    transform: scale(0.97);
+    transition-duration: 2.8s;
+}
+
+.button:hover .svgIcon {
+    transform: rotate(250deg);
+    transition-duration: 3s;
+}
+
+/* Footer social networks */
+footer .redes {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+
+footer .redes ul {list-style: none;}
+
+/* Footer Nav Bar */
+footer .navbar{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-family: titulos;}
+
+footer .navbar #tres1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;}
+
+footer .navbar #tres2 {
+    padding-left: 5%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;}
+
+footer .navbar a{
+    font-size: 2.25rem;
+    text-decoration: none;
+    color: #E4BC69;
+    padding-bottom: 2.5px;}
+
+footer .navbar a:hover {
+    transition: 0.7s; 
+    color: #d69419;}
+
+.fa-linkedin-square {color: #0866FF;}
+
+.fa-github {color: white;}
+
+.fa-instagram {
+    background: linear-gradient(107deg, rgba(249,206,52,1) 0%, rgba(238,42,123,1) 50%, #6228d7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;}
+
+/* Media Queries of the whole web page */
 @media only screen and (width < 1625px) { 
     #hero button {top: 77vh;}
+
     .voltage-button svg{top:77vh;}}
+
 @media only screen and (width < 1533px) { 
     #concept #imagenconcept img{margin-top: 22.5%;}
+    
     #technology img {margin-top: 13%;}
-    #concept .texto {margin-top: 1%;}}
+
+    #concept .texto {margin-top: 1%;}
+
+    footer .container {padding-top: 18px; padding-bottom: 18px;}
+    
+    footer .navbar a{font-size: 1.65rem;}
+
+    footer .redes {font-size: 1.325rem;}
+
+    footer .creditos button {font-size: 1.8rem;}}
+
 @media only screen and (width < 1260px) { 
     #concept #imagenconcept img{margin-top: 36.5%;}
+
     #technology img {margin-top: 25%;}
+
     #concept .texto {margin-top: 0%;}}
-@media only screen and (width <= 1050px) {
-    #concept .container, #technology .container {padding-left: 35px; padding-right: 35px;}
+
+@media only screen and (width < 1055px) {
+    footer .redes {
+        font-size: 1.275rem;
+        margin-right: 40px;
+        margin-top: 2.75%;}
+
+    footer .container {
+        grid-template-columns: 100%; 
+        padding-top: 0; 
+        padding-bottom: 0;}
+
+    footer .navbar {padding-bottom: 2px;}
+
+    footer .creditos{
+        order: 3;
+        padding-top: 3%;
+        margin-bottom: 6%;}
+
+    #concept .container, #technology .container {
+        padding-left: 35px; 
+        padding-right: 35px;}
+
     #technology .container { 
         grid-template-columns: 100%;
         padding-bottom: 15px;}
+
     #concept .container {
     grid-template-columns: 100%;
-        padding-bottom: 15px;}
+    padding-bottom: 15px;}
+
     #concept #imagenconcept img{margin-top: 0%;}
+
     #technology img {margin-top: 0%;}
+
     #concept .texto {
         padding-left: 0px;
         padding-top: 2.75%;}
+
     #technology .texto {padding-right: 0px;}
+
     #imagentransitoria img {
         width: 85%;
         display:block;
         margin-bottom: 0;
         padding-bottom: 0;}
+
     #imagentransitoria {
         background-image: none;
         box-shadow: none;
         margin-top: 30px;}
+
     #imagentransitoria:hover {box-shadow: inherit;}}
+
 @media only screen and (width <= 900px) {
     h2 {font-size: 1.95rem;}
-    p {font-size: 1.55rem;}
+
+    p {font-size: 1.5rem;}
+
     #hero {
-        height: 90.4vh;
+        height: 93.1vh;
         background: initial;
         background-position: 51.80%;
         background-size: cover;
         background-image: url(../img/img7.jpg);}}
+
 @media only screen and (width <= 750px) {
-    #concept .container, #technology .container {padding-left: 22.5px; padding-right: 22.5px;}
+    #concept .container, #technology .container {
+        padding-left: 22.5px; 
+        padding-right: 22.5px;}
+
     #wrapper {width: 95%;}
+
     #hero h1 {font-size: 3.2rem;}
+
     nav #sw {font-size: 1.6rem;}
+
     #hero button {font-size: 1.2rem;}
+
+    #technology h2, #concept h2 {margin: 0; padding: 0;}
+
+    #concept .texto {margin-top: 12.5px;}
+
     .voltage-button svg {width: 157px; height: 67px;}
+
     #technology .container {padding-top: 27.5px;}
+
     #concept .container {padding-bottom: 0px;}
+
     #imagentransitoria {
         margin-top: 0;
         margin-bottom: 0;}
-    #imagentransitoria img {width: 80%; margin-bottom: 16px; margin-top: 27px;}}
+
+    #imagentransitoria img {width: 80%; 
+        margin-bottom: 16px;
+        margin-top: 27px;}}
+        
+
