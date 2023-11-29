@@ -113,7 +113,8 @@ nav .sw {
         margin-left: 0px;}
     nav #sw {
         border: none;
-        font-size: 1.78rem;}
+        font-size: 1.78rem;
+        margin-top: 2.5px}
     nav #sw:after {
         text-align: left;
         padding-left: 15px;}
@@ -375,8 +376,8 @@ nav .sw {
 @media only screen and (width <= 750px) {
     #concept .container, #technology .container {padding-left: 22.5px; padding-right: 22.5px;}
     #wrapper {width: 95%;}
-    #hero h1 {font-size: 3.5rem;}
-    nav #sw {font-size: 1.85rem;}
+    #hero h1 {font-size: 3.2rem;}
+    nav #sw {font-size: 1.6rem;}
     #hero button {font-size: 1.2rem;}
     .voltage-button svg {width: 157px; height: 67px;}
     #technology .container {padding-top: 27.5px;}
