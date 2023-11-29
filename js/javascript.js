@@ -1,9 +1,9 @@
 /**********************************************************/
-/* Web de Inteligencia Artificial                         */
+/* Web de Steampunk                                       */
 /* Hoja de javascript para index.html y gallery.html      */
 /* Autor: David Solera Romero                             */
 /* Versión: 1.0                                           */
-/* 12 de octubre de 2023                                  */
+/* 29 de noviembre de 2023                                */
 /**********************************************************/
 
 /* Java Script que regula la barra de navegación */

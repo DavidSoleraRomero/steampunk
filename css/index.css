@@ -129,6 +129,10 @@ nav .sw {
     display: block;
 }}
 
+/* Navigation bar --> Hover */
+
+
+
 /* Sections */
 /* Hero Section */
 #hero {
@@ -156,6 +160,7 @@ nav .sw {
     left: 50.5%;
     font-size: 1.5rem;
     padding: 12.5px 35px;
+    padding-bottom: 9px;
     color: #ffe2ab;
     background: radial-gradient(circle, rgba(114,52,3,1) 0%, rgba(79,35,1,1) 100%);
     border-radius: 15px;
@@ -166,10 +171,19 @@ nav .sw {
 
 .voltage-button button:hover {cursor: pointer;}
 
+@keyframes boton {
+    0% {border-color: #8f610c;}
+    33%{border-color: #6a4d16;}
+    66% {border-color: #f0bb59;}
+    to {border-color: #8f610c;}
+}
+
 #hero button:hover {
-    border-color: #755720;
     color: #db930d;
-    transition: 2s;
+    transition: 2.25s;
+    animation-name: boton;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
     }
 
 .voltage-button button:hover + svg, .voltage-button button:hover + svg + .dots {opacity: 1; }
@@ -181,7 +195,7 @@ nav .sw {
     left: 50.5%;
     transform: translate(-50%, -50%); /* Si lees esto Pilar, que sepas que perdí 2 horas modificando cosas sin acordarme de transform */
     width: 176.75px;
-    height: 75px;
+    height: 70px;
     pointer-events: none;
     opacity: 0;
     transition: opacity 0.4s;
@@ -191,12 +205,12 @@ nav .sw {
 .voltage-button svg path {stroke-dasharray: 100; filter: url("#glow");}
 
 .voltage-button svg path.line-1 {
-    stroke: #fae2aa;
+    stroke: #fdebc0;
     stroke-dashoffset: 0;
     animation: spark-1 3s linear infinite;}
 
 .voltage-button svg path.line-2 {
-    stroke: rgb(211, 152, 24);
+    stroke: rgb(240, 171, 21);
     stroke-dashoffset: 500;
     animation: spark-2 3s linear infinite;}
 
