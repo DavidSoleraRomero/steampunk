@@ -16,3 +16,50 @@ function myFunction() {
       x.className = "miNav";
     }
   }
+  
+/* JavaScript Scroll */
+document.addEventListener("DOMContentLoaded", function() {
+  var scrollLinks = document.querySelectorAll('a[href^="#"]');
+
+  scrollLinks.forEach(function(scrollLink) {
+    scrollLink.addEventListener("click", function(e) {
+      e.preventDefault();
+
+      var targetId = this.getAttribute("href");
+
+      if (targetId === "#") {
+        // Scroll to the top of the page
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth"
+        });
+
+        // Update the URL to remove the hash
+        window.history.pushState(null, null, window.location.pathname);
+      } else {
+        var targetElement = document.getElementById(targetId.substring(1));
+
+        if (targetElement) {
+          var offsetTop = targetElement.getBoundingClientRect().top + window.scrollY;
+
+          window.scrollTo({
+            top: offsetTop,
+            behavior: "smooth"
+          });
+
+          // Update the URL with the hash
+          window.history.pushState(null, null, targetId);
+        }
+      }
+    });
+  });
+});
+
+/* Botón direcciona hacia Concept */
+document.addEventListener('DOMContentLoaded', function() {
+  document.getElementById('myButton').addEventListener('click', function() {
+  document.getElementById('concept').scrollIntoView({
+      behavior: 'smooth'
+      });
+  });
+});
