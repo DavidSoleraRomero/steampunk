@@ -335,7 +335,18 @@ nav .sw {
 
 /* Culture */
 
+#culture .grid4 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;}
 
+#culture .grid4 img {
+    width: 100%;}
+
+#culture .grid4 .col-4 {
+    margin-left: 50px;}
+
+#culture .grid4 #ultimo {
+    margin-right: 50px;}
 
 /* Art */
 
@@ -484,7 +495,18 @@ footer .navbar a:hover {
     #concept .texto {margin-top: 0%;}}
 
 @media only screen and (width < 1055px) {
+    #culture .grid4 .col-4 {
+        margin-left: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 25px;}
+    
+    #culture .grid4 #ultimo {
+        margin-right: 0px;}
+
     #hero h1 {font-size: 3.2rem;}
+
+    #culture .grid4 {grid-template-columns: auto auto;}
 
     footer .redes {
         font-size: 1.2rem;
@@ -551,9 +573,16 @@ footer .navbar a:hover {
         background-image: url(../img/img7.jpg);}}
 
 @media only screen and (width <= 750px) {
+    #culture .grid4 .col-4 {
+        padding-left: 35px;
+        padding-right: 35px;
+        margin-top: 27.5px;}
+
     #concept .container, #technology .container {
         padding-left: 22.5px; 
         padding-right: 22.5px;}
+
+    #culture .grid4 {grid-template-columns: auto;}
 
     #wrapper {width: 95%;}
 
