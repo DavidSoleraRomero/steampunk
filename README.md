@@ -1,6 +1,6 @@
 # Welcome to Steampunk's website - Exploring the Steampunk Culture
 
-<img src="https://th.bing.com/th/id/OIG.NG5XeAGNaOwU398_Y5vE?pid=ImgGn" alt="Steampunk" width="512" height="512">
+<img src="https://th.bing.com/th/id/OIG.NG5XeAGNaOwU398_Y5vE?pid=ImgGn" alt="Steampunk" width="600" height="500">
 
 ## Welcome to the Steampunk World!
 
