@@ -155,7 +155,8 @@ nav .sw {
     transform: translate(-50%, -50%);
     text-align: center;
     position: absolute;
-    font-size: 4.2rem;}
+    font-size: 5.25rem;
+    text-shadow: 3.25px 2.25px 1px black;}
 
 /* Hero button */
 #hero button {
@@ -483,6 +484,8 @@ footer .navbar a:hover {
     #concept .texto {margin-top: 0%;}}
 
 @media only screen and (width < 1055px) {
+    #hero h1 {font-size: 3.2rem;}
+
     footer .redes {
         font-size: 1.2rem;
         margin-right: 40px;
@@ -553,8 +556,6 @@ footer .navbar a:hover {
         padding-right: 22.5px;}
 
     #wrapper {width: 95%;}
-
-    #hero h1 {font-size: 3.2rem;}
 
     nav #sw {font-size: 1.475rem;}
 
