@@ -39,7 +39,7 @@ p {font-size: 1.8rem;}
 
 img {box-shadow: 0px 0px 17.5px 0.75px #f5b349;}
 
-img:hover {box-shadow: 0px 0px 45px 1px rgb(245, 170, 50); transition: 1.1s;}
+img:hover {box-shadow: 0px 0px 32.5px 0.9px rgb(245, 170, 50); transition: 1.1s;}
 
 /* Header / Nav */
 
@@ -335,58 +335,80 @@ nav .sw {
 
 /* Culture */
 
+#culture {margin-top: 0.5%; margin-bottom: 2.25%;}
+
 #culture .grid4 {
     display: grid;
     grid-template-columns: repeat(4, 25%);
     text-align: center;}
 
-#culture .grid4 .col-4 .cartas p {
+#culture .grid4 .col-4 .cartas {
     width: 100%;
     transform-origin:center;
-    transform:perspective(800px) rotateY(45deg);
-    transition:0.5s;
-}
+    margin-top: 15px;
+    visibility: hidden;
+    border: 1px solid #f0bb59;
+    background: linear-gradient(96deg, rgba(243, 223, 185, 0.15) 0%, rgba(240, 187, 89, 0.15) 80%);}
+
+#culture .grid4 .col-4 h3 {
+    font-size: 1.65em;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #d8aa4f;
+    padding-left: 2.5px;
+    padding-right: 2.5px;}
+
+#culture .grid4 .col-4 p {
+    font-size: 1em;
+    margin-top: 0;
+    margin-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 5px;}
 
 #culture .grid4 .col-4 img {
     width: 100%;
-    margin-bottom: 0;
-    -webkit-box-reflect:below 2px linear-gradient(transparent, transparent, #0004);
+    -webkit-box-reflect:below 0px linear-gradient(transparent, transparent, #0004);
     transform-origin:center;
-    transform:perspective(800px) rotateY(25deg);
+    transform:perspective(800px) rotateY(17.5deg);
     transition:0.5s;}
 
-#culture .grid4:hover img {
-    opacity:0.3;}
+#culture .grid4:hover img,
+#culture .grid4:hover img ~ .cartas {
+    opacity:0.3;
+    filter: blur(3px);}
 
-#culture .grid4:hover img ~ p {
-    opacity:0.3;}
+#culture .grid4 img:hover ~ .cartas {
+    opacity:1;
+    visibility: visible;
+    transition: opacity 1s ease-in-out 0.5s;
+    filter: blur(0px);}
 
 #culture .grid4 img:hover {
     transform:perspective(800px)       
     rotateY(0deg);
-    opacity:1;}
-
-#culture .grid4 img:hover ~ p {
-    transform:perspective(800px)       
-    rotateY(0deg);}
+    opacity:1;
+    filter: blur(0px);}
 
 #culture .grid4 .col-4 {
-    margin-left: 25px;
-    margin-right: 25px;}
-
-#culture .cartas {
-        margin-top: 0;
-        padding-top: 0;}
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;}
 
 /* Media Queries reflect of images */
 
-@media only screen and (width <= 1055px) { 
+@media only screen and (width < 1260px) { 
     #culture .grid4 .col-4 img {
         -webkit-box-reflect:initial;
         transform:perspective(800px) rotateY(0deg);}
-    #culture .grid4 .col-4 .cartas p {
-        transform:perspective(800px) rotateY(0deg);}
-}
+    #culture .grid4 .col-4 .cartas {visibility: visible;}
+    #culture .grid4:hover img,
+    #culture .grid4:hover img ~ .cartas {filter: blur(0px); opacity:1; transition: 1.1s;}
+    #culture .grid4 .col-4 {
+        margin-left: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-right: 0;
+        margin-top: 20px;}}
 
 /* Art */
 
@@ -495,24 +517,23 @@ footer .navbar a:hover {
     transition: 0.7s; 
     color: #d69419;}
 
-.fa-linkedin-square {color: #0866FF;}
+.fa {
+    color: #f5c469;}
 
-.fa-github {color: white;}
-
-.fa-instagram {
-    background: linear-gradient(107deg, rgba(249,206,52,1) 0%, rgba(238,42,123,1) 50%, #6228d7 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: transparent;}
-
+.fa:hover {
+    color: #d89c2d;
+    transition: 0.75s;}
 /* Media Queries of the whole web page */
 @media only screen and (width < 1625px) { 
     #hero button {top: 77vh;}
 
     .voltage-button svg{top:77vh;}}
 
-@media only screen and (width < 1533px) { 
+@media only screen and (width < 1533px) {
+    #culture .grid4 .col-4 h3 {font-size: 1.28em;}
+    
+    #culture .grid4 .col-4 p {font-size: 0.9em;}
+
     #concept #imagenconcept img{margin-top: 22.5%;}
     
     #technology img {margin-top: 13%;}
@@ -528,22 +549,18 @@ footer .navbar a:hover {
     footer .creditos button {font-size: 1.65rem;}}
 
 @media only screen and (width < 1260px) { 
+    #culture .grid4 .col-4 h3 {font-size: 1.2em;}
+
     #concept #imagenconcept img{margin-top: 36.5%;}
 
     #technology img {margin-top: 25%;}
 
+    #culture .grid4 {grid-template-columns: 50% 50%;}
+
     #concept .texto {margin-top: 0%;}}
 
 @media only screen and (width < 1055px) {
-    #culture .grid4 .col-4 {
-        margin-left: 0px;
-        padding-left: 20px;
-        padding-right: 20px;
-        margin-top: 25px;}
-
     #hero h1 {font-size: 3.2rem;}
-
-    #culture .grid4 {grid-template-columns: 50% 50%;}
 
     footer .redes {
         font-size: 1.2rem;
@@ -613,7 +630,10 @@ footer .navbar a:hover {
     #culture .grid4 .col-4 {
         padding-left: 35px;
         padding-right: 35px;
-        margin-top: 27.5px;}
+        margin-top: 22.5px;}
+
+    #culture .grid4 #primero {
+    margin-top: 0px;}
 
     #concept .container, #technology .container {
         padding-left: 22.5px; 
