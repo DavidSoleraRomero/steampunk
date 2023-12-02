@@ -7,17 +7,15 @@
 /***********************************/
 
 /* Fonts */
-
 @font-face {font-family: titulos; src: url('../font/Jack\ of\ Gears\ Regular.ttf');}
 
 @font-face {font-family: textos; src: url('../font/Fha1.ttf');}
 
 /* General layout */
-
 * {box-sizing: border-box;}
 
-body{margin:0;padding:0; /* quitamos por defectos */
-    font-family: textos; /* familia de texto */
+body{margin:0;padding:0;
+    font-family: textos;
     font-size: 1.8rem;
     background-color: black;
     color: #ffe2ab;
@@ -37,12 +35,12 @@ p {font-size: 1.8rem;}
 
 #wrapper {width: 76%; margin:auto; background-color: #02080c;}
 
-img {box-shadow: 0px 0px 17.5px 0.75px #f5b349;
-    border: 0.75px solid;}
+img {box-shadow: 0px 0px 17.5px 0.75px #f5b349; border: 0.75px solid;}
 
 img:hover {box-shadow: 0px 0px 32.5px 0.9px rgb(245, 170, 50); transition: 1.1s;}
 
 /* Header / Nav */
+a {text-decoration: none;}
 
 nav {
     background-color: hsl(205, 75%, 3%, 0.95);
@@ -53,7 +51,6 @@ nav {
 
 nav a {
     color: #ffe2ab;
-    text-decoration: none;
     padding-right: 2px;
     float: left;
     display: block;
@@ -102,7 +99,6 @@ nav .sw {
     padding-right: 22px;}
 
 /* Navigation bar --> Media Queries */
-
 @media screen and (max-width: 900px) {
     .miNav a:not(:first-child) {display: none;}
 
@@ -111,18 +107,14 @@ nav .sw {
     float: right;
     display: block;}
 
-    nav .sw {
-        padding-left: 15px;
-        margin-left: 0px;}
+    nav .sw {padding-left: 15px; margin-left: 0px;}
 
     nav #sw {
         border: none;
         font-size: 1.78rem;
         margin-top: 2.5px}
 
-    nav #sw:after {
-        text-align: left;
-        padding-left: 15px;}
+    nav #sw:after {text-align: left; padding-left: 15px;}
 
     nav #last {padding-bottom: 22.5px;}}
 @media screen and (max-width: 900px) {
@@ -177,7 +169,6 @@ nav .sw {
     z-index: 1;}
 
 /* Button hover  */
-
 .voltage-button button:hover {cursor: pointer;}
 
 @keyframes boton {
@@ -281,7 +272,6 @@ nav .sw {
     10%, 100% {opacity: 0; transform: translateY(3rem) scale(0.2);}}
 
 /* Common things - Concept and Technology */
-
 #concept .container, #technology .container {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -335,7 +325,6 @@ nav .sw {
 #technology .texto {padding-right: 50px;}
 
 /* Culture */
-
 #culture {margin-top: 0.5%; margin-bottom: 2%;}
 
 #culture .grid4 {
@@ -372,7 +361,7 @@ nav .sw {
     transform-origin:center;
     transform:perspective(800px) rotateY(17.5deg);
     transition:0.5s;
-    border-radius: 5px;
+    border-radius: 6px;
     border: 0px;}
 
 #culture .grid4:hover img,
@@ -398,7 +387,6 @@ nav .sw {
     margin-top: 20px;}
 
 /* Media Queries reflect of images */
-
 @media only screen and (width < 1260px) { 
     #culture .grid4 .col-4 img {
         -webkit-box-reflect:initial;
@@ -414,7 +402,6 @@ nav .sw {
         margin-top: 20px;}}
 
 /* Space */
-
 #space {
     margin-top: 2%;
     margin-bottom: 4%;
@@ -439,7 +426,6 @@ nav .sw {
     justify-content: center;}
 
 /* Footer */
-
 footer .container {
     display:grid;
     grid-template-columns: auto auto auto;
@@ -449,8 +435,7 @@ footer .container {
 footer .creditos {
     display: flex;
     justify-content: center;
-    align-items: center;
-    text-decoration: none;}
+    align-items: center;}
 
 footer .creditos button {
     padding: 10px 17.5px;
@@ -459,10 +444,7 @@ footer .creditos button {
     font-family: titulos;
     font-size: 2.5rem;}
 
-footer .creditos a {text-decoration: none;}
-
 /* Footer button hover credits */
-
 .button {
     display: flex;
     align-items: center;
@@ -477,25 +459,18 @@ footer .creditos a {text-decoration: none;}
     box-shadow: 2.5px 2.5px 8px rgba(230, 220, 168, 0.75);
     transition-duration: .5s;}
 
-.svgIcon {
-    height: 25px;
-    transition-duration: 2.7s;}
+.svgIcon {height: 25px; transition-duration: 2.7s;}
 
-.bell path {
-    fill: rgb(19, 19, 19);}
+.bell path {fill: rgb(19, 19, 19);}
 
 .button:hover {
     background-color: #ddac4b;
     transition-duration: 1.75s;
     box-shadow: 2.75px 2.75px 12px rgba(233, 208, 86, 0.75);}
 
-.button:active {
-    transform: scale(0.97);
-    transition-duration: 2.8s;}
+.button:active {transform: scale(0.97); transition-duration: 2.8s;}
 
-.button:hover .svgIcon {
-    transform: rotate(250deg);
-    transition-duration: 3s;}
+.button:hover .svgIcon {transform: rotate(250deg); transition-duration: 3s;}
 
 /* Footer social networks */
 footer .redes {
@@ -527,7 +502,6 @@ footer .navbar #tres2 {
 
 footer .navbar a{
     font-size: 2.25rem;
-    text-decoration: none;
     color: #E4BC69;
     padding-bottom: 2.5px;}
 
@@ -541,6 +515,7 @@ footer .navbar a:hover {
 .fa:hover {
     color: #d89c2d;
     transition: 0.75s;}
+
 /* Media Queries of the whole web page */
 @media only screen and (width < 1625px) { 
     #hero button {top: 77vh;}
