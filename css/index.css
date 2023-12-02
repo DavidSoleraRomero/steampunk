@@ -23,8 +23,7 @@ body{margin:0;padding:0;
 
 h1,h2,h3{font-family: titulos;}
 
-h2 {
-    margin: 0px;
+h2 {margin: 0px;
     padding-top: 15px;
     padding-bottom: 30px;
     font-size: 2.5rem;
@@ -42,15 +41,13 @@ img:hover {box-shadow: 0px 0px 32.5px 0.9px rgb(245, 170, 50); transition: 1.1s;
 /* Header / Nav */
 a {text-decoration: none;}
 
-nav {
-    background-color: hsl(205, 75%, 3%, 0.95);
+nav {background-color: hsl(205, 75%, 3%, 0.95);
     position: sticky;
     top:0;
     z-index: 999;
     overflow: hidden;}
 
-nav a {
-    color: #ffe2ab;
+nav a {color: #fdd282;
     padding-right: 2px;
     float: left;
     display: block;
@@ -59,8 +56,7 @@ nav a {
     font-weight: bold;
     padding-bottom: 16px;}
 
-nav #sw {
-    padding-right: 22.5px;
+nav #sw {padding-right: 22.5px;
     border-right: 2px solid #ffe2ab;
     padding-left: 15px;
     font-size: 2.25rem;
@@ -69,8 +65,7 @@ nav #sw {
     transition: all .5s ease;
     transform-style: preserve-3d;}
 
-nav #sw:after {
-    content: "TAKE ME HOME";
+nav #sw:after {content: "TAKE ME HOME";
     position: absolute;
     text-align: center;
     top: -100%;
@@ -80,27 +75,27 @@ nav #sw:after {
     transform: rotateX(90deg);
     padding-bottom: 16px;}
 
-nav #sw:hover {
-    transform-origin: center bottom;
+nav #sw:hover {transform-origin: center bottom;
     transform: rotateX(-90deg) translateY(100%);}
 
-nav a:hover {transition: 0.75s; color: #e7a731;}
+nav a:hover {transition: 0.75s; color: #db9a22;}
 
-nav .sw {
-    padding-top: 29.5px;
+nav .sw {padding-top: 29.5px;
     font-size: 1.75rem;
     margin-right: 12px;
     float: right;}
 
-.miNav .icon {
-    display: none;
+.miNav .icon {display: none;
     padding:0px;
-    margin-top: 18.8px;
-    padding-right: 22px;}
+    margin-top: 20px;
+    padding-right: 22px;
+    color: #fdd282;}
 
 /* Navigation bar --> Media Queries */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 950px) {
     .miNav a:not(:first-child) {display: none;}
+
+    .miNav a{font-size: 1.5rem;}
 
     .miNav a.icon {
     font-size: 35px;
@@ -116,8 +111,8 @@ nav .sw {
 
     nav #sw:after {text-align: left; padding-left: 15px;}
 
-    nav #last {padding-bottom: 22.5px;}}
-@media screen and (max-width: 900px) {
+    nav #last {padding-bottom: 10px;}}
+@media screen and (max-width: 950px) {
     .miNav.responsive {position: relative;}
 
     .miNav.responsive a.icon {
@@ -131,8 +126,7 @@ nav .sw {
 
 /* Sections */
 /* Hero Section */
-#hero {
-    background: fixed no-repeat;
+#hero {background: fixed no-repeat;
     background-image: url(../img/img7.jpg);
     height: 94.1vh;
     background-repeat: no-repeat;
@@ -140,8 +134,7 @@ nav .sw {
     background-size: cover;
     position: relative;}
 
-#hero h1 {
-    color: #fddb9a;
+#hero h1 {color: #fddb9a;
     margin: 0;
     top: 20%;
     left: 51%;
@@ -607,7 +600,7 @@ footer .navbar a:hover {
     #technology .texto {padding-right: 0px;}
 
     #imagentransitoria img {
-        width: 85%;
+        width: 90%;
         display:block;
         margin-bottom: 0;
         padding-bottom: 0;}
@@ -617,10 +610,17 @@ footer .navbar a:hover {
         box-shadow: none;
         margin-top: 30px;}
 
-    #imagentransitoria:hover {box-shadow: inherit;}}
+    #imagentransitoria:hover {box-shadow: inherit;}
+
+    section {margin-top: 11%; padding-top: 14%;}
+
+    #concept {margin-top: 27%; padding-top: 1%;}
+
+    #technology {margin-top: 0%; padding-top: 10%;}
+
+    #hero{margin-top: 0;}}
 
 @media only screen and (width <= 900px) {
-    
     h2 {font-size: 2.25rem;}
 
     p {font-size: 1.5rem;}
@@ -633,8 +633,6 @@ footer .navbar a:hover {
         background-image: url(../img/img7.jpg);}}
 
 @media only screen and (width <= 750px) {
-    #space {margin-top: 10%;}
-
     #culture .grid4 .col-4 {
         padding-left: 50px;
         padding-right: 50px;
@@ -669,7 +667,7 @@ footer .navbar a:hover {
         margin-top: 0;
         margin-bottom: 0;}
 
-    #imagentransitoria img {width: 80%; 
+    #imagentransitoria img {width: 95%; 
         margin-bottom: 16px;
         margin-top: 27px;}}
         
