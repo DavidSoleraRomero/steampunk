@@ -318,7 +318,7 @@ nav .sw {padding-top: 29.5px;
 #technology .texto {padding-right: 50px;}
 
 /* Culture */
-#culture {padding-top: 5.5%; margin-bottom: 2%;}
+#culture {margin-bottom: 2%;}
 
 #culture .grid4 {
     display: grid;
@@ -616,7 +616,7 @@ footer .navbar a:hover {
 
     #imagentransitoria:hover {box-shadow: inherit;}
 
-    section {margin-top: 10%; padding-top: 20%;}
+    section {margin-top: 10%; padding-top: 16.5%;}
 
     #concept {margin-top: 27%; padding-top: 1%;}
 
