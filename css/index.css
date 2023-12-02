@@ -409,8 +409,8 @@ nav .sw {padding-top: 29.5px;
     border-radius: 30px;}
 
 #space .grid3 .col-3 {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 38px;
+    padding-right: 38px;
     margin-top: 12.5px;}
 
 #space .grid3 .col-3 {
@@ -535,11 +535,13 @@ footer .navbar a:hover {
     footer .creditos button {font-size: 1.65rem;}
 
     #space .grid3 .col-3 {
-        padding-left: 22.5px;
-        padding-right: 22.5px;}}
+        padding-left: 17.5px;
+        padding-right: 17.5px;}}
 
 @media only screen and (width < 1260px) { 
     #culture .grid4 .col-4 h3 {font-size: 1.2em;}
+    
+    #culture .grid4 .col-4 .cartas {margin-top: 6px;}
 
     #concept #imagenconcept img{margin-top: 36.5%;}
 
@@ -551,7 +553,9 @@ footer .navbar a:hover {
 
     #space .grid3 .col-3 {
         margin-left: 22.75px;
-        margin-right: 22.75px;}
+        margin-right: 22.75px;
+        padding-left: 21.5px;
+        padding-right: 21.5px;}
 
     #space .grid3 {grid-template-columns: 1fr;}
 
@@ -600,7 +604,7 @@ footer .navbar a:hover {
     #technology .texto {padding-right: 0px;}
 
     #imagentransitoria img {
-        width: 90%;
+        width: 92.5%;
         display:block;
         margin-bottom: 0;
         padding-bottom: 0;}
