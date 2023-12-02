@@ -186,8 +186,8 @@ nav .sw {padding-top: 29.5px;
     top: 81.5vh;
     left: 50.5%;
     transform: translate(-50%, -50%);
-    width: 176.75px;
-    height: 70px;
+    width: 162.5px;
+    height: 69.5px;
     pointer-events: none;
     opacity: 0;
     transition: opacity 0.4s;
@@ -657,7 +657,7 @@ footer .navbar a:hover {
 
     #concept .texto {margin-top: 12.5px;}
 
-    .voltage-button svg {width: 157px; height: 67px;}
+    .voltage-button svg {width: 144.5px;height: 62px;}
 
     #technology .container {padding-top: 27.5px;}
 
@@ -673,4 +673,4 @@ footer .navbar a:hover {
         
 @media only screen and (width <= 650px) { 
     #hero button {font-size: 1rem;}
-    .voltage-button svg {width: 143.5px; height: 59px;}}
+    .voltage-button svg {width: 133.5px;height: 55px;}}
