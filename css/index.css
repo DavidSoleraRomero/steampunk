@@ -318,7 +318,7 @@ nav .sw {padding-top: 29.5px;
 #technology .texto {padding-right: 50px;}
 
 /* Culture */
-#culture {margin-top: 0.5%; margin-bottom: 2%;}
+#culture {padding-top: 5.5%; margin-bottom: 2%;}
 
 #culture .grid4 {
     display: grid;
@@ -409,8 +409,8 @@ nav .sw {padding-top: 29.5px;
     border-radius: 30px;}
 
 #space .grid3 .col-3 {
-    margin-left: 40px;
-    margin-right: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
     margin-top: 12.5px;}
 
 #space .grid3 .col-3 {
@@ -532,11 +532,11 @@ footer .navbar a:hover {
 
     footer .redes {font-size: 1.33rem;}
 
-    footer .creditos button {font-size: 1.65rem;}}
+    footer .creditos button {font-size: 1.65rem;}
 
     #space .grid3 .col-3 {
-        margin-left: 20px;
-        margin-right: 20px;}
+        padding-left: 22.5px;
+        padding-right: 22.5px;}}
 
 @media only screen and (width < 1260px) { 
     #culture .grid4 .col-4 h3 {font-size: 1.2em;}
@@ -550,8 +550,8 @@ footer .navbar a:hover {
     #culture .grid4 .col-4 img {border: 0.75px solid;}
 
     #space .grid3 .col-3 {
-        margin-left: 50px;
-        margin-right: 50px;}
+        margin-left: 22.75px;
+        margin-right: 22.75px;}
 
     #space .grid3 {grid-template-columns: 1fr;}
 
