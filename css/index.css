@@ -60,7 +60,7 @@ nav #sw {padding-right: 22.5px;
     border-right: 2px solid #ffe2ab;
     padding-left: 15px;
     font-size: 2.25rem;
-    padding-top: 24px;
+    padding-top: 20px;
     font-family: titulos;
     transition: all .5s ease;
     transform-style: preserve-3d;}
@@ -87,7 +87,7 @@ nav .sw {padding-top: 29.5px;
 
 .miNav .icon {display: none;
     padding:0px;
-    margin-top: 20px;
+    margin-top: 12px;
     padding-right: 22px;
     color: #fdd282;}
 
@@ -98,7 +98,7 @@ nav .sw {padding-top: 29.5px;
     .miNav a{font-size: 1.5rem;}
 
     .miNav a.icon {
-    font-size: 35px;
+    font-size: 42.5px;
     float: right;
     display: block;}
 
@@ -616,7 +616,7 @@ footer .navbar a:hover {
 
     #concept {margin-top: 27%; padding-top: 1%;}
 
-    #technology {margin-top: 0%; padding-top: 10%;}
+    #technology {margin-top: 0.5%; padding-top: 16.5%;}
 
     #hero{margin-top: 0;}}
 
