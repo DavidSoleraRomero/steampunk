@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 
-/* Botón direcciona hacia Concept */
+/* Botón direcciona hacia Concept - hecho por IA */
 document.addEventListener('DOMContentLoaded', function() {
   document.getElementById('myButton').addEventListener('click', function() {
   document.getElementById('concept').scrollIntoView({
