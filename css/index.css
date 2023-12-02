@@ -418,7 +418,7 @@ nav .sw {
 #space {
     margin-top: 2%;
     margin-bottom: 4%;
-}
+    text-align: justify;}
 
 #space .grid3 {
     display: grid;
