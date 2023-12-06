@@ -214,6 +214,10 @@ nav .sw {padding-top: 29.5px;
 
 /* Videos */
 #videos {text-align: center; padding-top: 6%;}
+
+.grid2 {display: grid; grid-template-columns: 50% 50%;}
+
+.grid2 .col-2 {padding-left: 7.5%; padding-right: 7.5%;}
 /* Iframes */
 .container {
     position: relative;
@@ -231,10 +235,6 @@ nav .sw {padding-top: 29.5px;
     right: 0;
     width: 100%;
     height: 100%;}
-
-.grid2 {display: grid; grid-template-columns: 50% 50%;}
-
-.grid2 .col-2 {padding-left: 7.5%; padding-right: 7.5%;}
 
 /* Footer */
 footer .containerFooter {
@@ -278,6 +278,7 @@ footer .close:focus {
     text-decoration: none;
     cursor: pointer;}
 
+/* General style for the button */
 footer .creditos {
     display: flex;
     justify-content: center;
@@ -361,7 +362,7 @@ footer .navbar a:hover {
     color: #d89c2d;
     transition: 0.75s;}
 
-/* Media Queries generales */
+/* General Media Queries of the web page */
 @media only screen and (width < 1533px) {     
     footer .containerFooter {padding-top: 18px; padding-bottom: 18px;}
 
