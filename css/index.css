@@ -23,6 +23,8 @@ body{margin:0;padding:0;
 
 h1,h2,h3{font-family: titulos;}
 
+h1, h2{color: #d1a44b;}
+
 h2 {margin: 0px;
     padding-top: 15px;
     padding-bottom: 30px;
@@ -106,7 +108,7 @@ nav .sw {padding-top: 29.5px;
 
     nav #sw {
         border: none;
-        font-size: 1.78rem;
+        font-size: 1.475rem;
         margin-top: 2.5px}
 
     nav #sw:after {text-align: left; padding-left: 15px;}
@@ -318,7 +320,7 @@ nav .sw {padding-top: 29.5px;
 #technology .texto {padding-right: 50px;}
 
 /* Culture */
-#culture {margin-bottom: 2%;}
+#culture {margin-bottom: 2%; padding-top: 4.4%;}
 
 #culture .grid4 {
     display: grid;
@@ -396,6 +398,7 @@ nav .sw {padding-top: 29.5px;
 
 /* Space */
 #space {
+    padding-top: 1%;
     margin-top: 2%;
     margin-bottom: 4%;
     text-align: justify;}
@@ -425,6 +428,40 @@ footer .container {
     background-color: rgb(8, 7, 2);}
 
 /* Footer credits */
+/* The Modal (background) */
+footer .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.85); /* Black w/ opacity */}
+
+/* Modal Content/Box */
+footer .modal-content {
+    background: #02080C;
+    border: 0.25px solid;
+    margin: 15% auto;
+    padding: 20px;
+    width: 80%;
+    color: #FFE2AB}
+
+  /* The Close Button */
+footer .close {
+    float: right;
+    font-size: 28px;
+    font-weight: bold;}
+
+footer .close:hover,
+footer .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;}
+
 footer .creditos {
     display: flex;
     justify-content: center;
@@ -432,7 +469,7 @@ footer .creditos {
 
 footer .creditos button {
     padding: 10px 17.5px;
-    padding-bottom: 5.25px;
+    padding-bottom: 5px;
     border-radius: 10px;
     font-family: titulos;
     font-size: 2.5rem;}
@@ -443,13 +480,13 @@ footer .creditos button {
     align-items: center;
     justify-content: flex-start;
     gap: 7.5px;
-    background-color: #F5E5AA;
+    background-color: #FFE2AB;
     color: rgb(19, 19, 19);
     border: none;
     position: relative;
     cursor: pointer;
     transition-duration: .2s;
-    box-shadow: 2.5px 2.5px 8px rgba(230, 220, 168, 0.75);
+    box-shadow: 2px 2px 7px rgba(241, 222, 124, 0.85);
     transition-duration: .5s;}
 
 .svgIcon {height: 25px; transition-duration: 2.7s;}
@@ -457,9 +494,9 @@ footer .creditos button {
 .bell path {fill: rgb(19, 19, 19);}
 
 .button:hover {
-    background-color: #ddac4b;
+    background-color: #eebd5a;
     transition-duration: 1.75s;
-    box-shadow: 2.75px 2.75px 12px rgba(233, 208, 86, 0.75);}
+    box-shadow: 2px 2px 13px rgba(233, 208, 86, 0.75);}
 
 .button:active {transform: scale(0.97); transition-duration: 2.8s;}
 
@@ -532,7 +569,7 @@ footer .navbar a:hover {
 
     footer .redes {font-size: 1.33rem;}
 
-    footer .creditos button {font-size: 1.65rem;}
+    footer .creditos button {font-size: 1.65rem; align-items: normal;}
 
     #space .grid3 .col-3 {
         padding-left: 17.5px;
@@ -545,17 +582,21 @@ footer .navbar a:hover {
 
     #concept #imagenconcept img{margin-top: 36.5%;}
 
-    #technology img {margin-top: 25%;}
+    #culture {padding-top: 10.25%;}
 
     #culture .grid4 {grid-template-columns: 50% 50%;}
 
     #culture .grid4 .col-4 img {border: 0.75px solid;}
+
+    #technology img {margin-top: 25%;}
 
     #space .grid3 .col-3 {
         margin-left: 22.75px;
         margin-right: 22.75px;
         padding-left: 21.5px;
         padding-right: 21.5px;}
+
+    #space {padding-top: 10.25%;}
 
     #space .grid3 {grid-template-columns: 1fr;}
 
@@ -565,8 +606,7 @@ footer .navbar a:hover {
     #hero h1 {font-size: 3.2rem;}
 
     footer .redes {
-        font-size: 1.2rem;
-        margin-right: 40px;
+        margin-right: 22.5px;
         margin-top: 2.75%;}
 
     footer .container {
@@ -616,14 +656,20 @@ footer .navbar a:hover {
 
     #imagentransitoria:hover {box-shadow: inherit;}
 
-    section {margin-top: 10%; padding-top: 16.5%;}
+    section {margin-top: 10%;}
 
     #concept {margin-top: 27%; padding-top: 1%;}
 
     #technology {margin-top: 0.5%; padding-top: 16.5%;}
 
     #hero{margin-top: 0;
-        padding-top: 0;}}
+        padding-top: 0;}
+    
+    footer .navbar a{font-size: 1.85rem;}
+
+    footer .redes {font-size: 1.5rem;}
+
+    footer .creditos button {font-size: 1.775rem; align-items: normal;}}
 
 @media only screen and (width <= 900px) {
     h2 {font-size: 2.25rem;}
@@ -654,8 +700,6 @@ footer .navbar a:hover {
 
     #wrapper {width: 95%;}
 
-    nav #sw {font-size: 1.475rem;}
-
     #hero button {font-size: 1.2rem;}
 
     #technology h2, #concept h2 {margin: 0; padding: 0;}
@@ -679,3 +723,10 @@ footer .navbar a:hover {
 @media only screen and (width <= 650px) { 
     #hero button {font-size: 1rem;}
     .voltage-button svg {width: 133.5px;height: 55px;}}
+
+@media only screen and (width < 400px) { 
+    footer .navbar a{font-size: 1.3rem;}
+
+    footer .redes {font-size: 1.1rem;}
+
+    footer .creditos button {font-size: 1.45rem; align-items: normal;}}
