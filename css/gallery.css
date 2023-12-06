@@ -236,7 +236,6 @@ nav .sw {padding-top: 29.5px;
 
 .grid2 .col-2 {padding-left: 7.5%; padding-right: 7.5%;}
 
-
 /* Footer */
 footer .containerFooter {
     margin-top: 10%;
@@ -356,13 +355,11 @@ footer .navbar a:hover {
     transition: 0.7s; 
     color: #d69419;}
 
-.fa {
-    color: #f5c469;}
+.fa {color: #f5c469;}
 
 .fa:hover {
     color: #d89c2d;
     transition: 0.75s;}
-
 
 /* Media Queries generales */
 @media only screen and (width < 1533px) {     
@@ -388,8 +385,7 @@ footer .navbar a:hover {
 
     section {margin-top: 10%; padding-top: 16.5%;}
 
-    #hero{margin-top: 0;
-        padding-top: 0;}
+    #hero{margin-top: 0; padding-top: 0;}
 
     footer .redes {
         margin-right: 22.5px;
