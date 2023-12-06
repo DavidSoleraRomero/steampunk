@@ -576,6 +576,8 @@ footer .navbar a:hover {
         padding-right: 17.5px;}}
 
 @media only screen and (width < 1260px) { 
+    footer .creditos .modal h1 {font-size: 2.5rem;}
+
     #culture .grid4 .col-4 h3 {font-size: 1.2em;}
     
     #culture .grid4 .col-4 .cartas {margin-top: 6px;}

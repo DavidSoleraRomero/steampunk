@@ -376,7 +376,9 @@ footer .navbar a:hover {
         padding-left: 17.5px;
         padding-right: 17.5px;}}
 
-@media only screen and (width < 1145px) {  
+@media only screen and (width < 1145px) {
+    footer .creditos .modal h1 {font-size: 2.5rem;}
+    
     .grid2 {grid-template-columns: 100%;}
 
     .grid2 .col-2:nth-child(2) {padding-top: 5%;}} 
