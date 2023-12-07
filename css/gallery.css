@@ -240,7 +240,7 @@ nav .sw {padding-top: 29.5px;
 footer .containerFooter {
     margin-top: 10%;
     display:grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 33.3% 33.4% 33.3%;
     background-color: rgb(8, 7, 2);}
 
 /* Footer credits */
