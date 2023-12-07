@@ -390,9 +390,7 @@ footer .navbar a:hover {
 
     #hero{margin-top: 0; padding-top: 0;}
 
-    footer .redes {
-        margin-right: 22.5px;
-        margin-top: 2.75%;}
+    footer .redes {margin-top: 2.75%;}
 
     footer .containerFooter {
         grid-template-columns: 100%; 
