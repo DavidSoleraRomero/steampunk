@@ -2,7 +2,7 @@
 
 ## Motivation for Creating the Website ⚙️
 
-The fascination with Steampunk aesthetics has been a driving force behind the development of this website. Inspired by the imaginative blend of Victorian era elements and futuristic technology, the goal is to create a digital space that captures the essence of Steampunk culture.
+I have decided to make the Steampunk website because I like its theme, but beyond that I really like the colors that they usually use in all their machinery.
 
 <img src="https://th.bing.com/th/id/OIG.NG5XeAGNaOwU398_Y5vE?pid=ImgGn" alt="Steampunk" width="580" height="530">
 
