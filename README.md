@@ -1,4 +1,4 @@
-# 🎇Welcome to Steampunk's website - Exploring the Steampunk Culture🎇
+# 🎇Exploring the Steampunk's Website🎇
 
 ## Motivation for Creating the Website ⚙️
 
