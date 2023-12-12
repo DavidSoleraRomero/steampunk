@@ -278,7 +278,7 @@ nav .sw {padding-top: 29.5px;
 #concept .container {
     margin-top: 75px;
     padding-bottom: 70px;
-    padding-top: 50px;}
+    padding-top: 8%;}
 
 #concept #imagenconcept img{
     width: 100%;
@@ -312,7 +312,7 @@ nav .sw {padding-top: 29.5px;
     padding: 0;}
 
 /* Technology */
-#technology .container {padding-bottom: 75px; padding-top: 70px;}
+#technology .container {padding-bottom: 75px; padding-top: 10%;}
 
 #technology img {width: 100%; border-radius: 50px 10px 50px 10px;}
 
@@ -397,7 +397,7 @@ nav .sw {padding-top: 29.5px;
 
 /* Space */
 #space {
-    padding-top: 1%;
+    padding-top: 4%;
     margin-top: 2%;
     margin-bottom: 4%;
     text-align: justify;}
