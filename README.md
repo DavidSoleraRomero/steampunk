@@ -23,16 +23,16 @@ Thank you for exploring this fascinating retro-futuristic world, and hope that I
 
 ### Fonts 🪧
 
-#### Titles and Footer Nav Bar used Jack of Gears
-#### Rest of the page used Fha1
+Titles and Footer Nav Bar used Jack of Gears<br>
+Rest of the page used Fha1
 
 ### Color palette 🌈
 
-#### 60% Black and 40% Golden-Orange
+60% Black and 40% Golden-Orange
 
 ### Images 📷
 
-#### Taken from the internet to match the color palette. The specific credits are on the website. <br>A lot of them are AI Generated, with DALL-E 3
+Taken from the internet to match the color palette. The specific credits are on the website. <br>A lot of them are AI Generated, with DALL-E 3
 
 ### Videos 🎞️
 
