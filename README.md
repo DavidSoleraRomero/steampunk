@@ -38,4 +38,4 @@ Thank you for exploring this fascinating retro-futuristic world, and hope that I
 
 #### Two famous Steampunk videos taken from Youtube
 
-*This website only has educational and practising purposes and does not seek to profit from it, developed by David Solera Romero<br>All rights reserved for the respective authors of the images and animations*
+*This website only has educational and practising purposes and does not seek to profit from it.<br>Developed by David Solera Romero<br>All rights reserved for the respective authors of the images and animations*
