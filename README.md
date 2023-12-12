@@ -32,7 +32,7 @@ Thank you for exploring this fascinating retro-futuristic world, and hope that I
 
 ### Images 📷
 
-#### Taken from the internet to match the color palette. The specific credits are on the website. A lot of them are AI Generated, with DALL-E 3
+#### Taken from the internet to match the color palette. The specific credits are on the website. <br>A lot of them are AI Generated, with DALL-E 3
 
 ### Videos 🎞️
 
