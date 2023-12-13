@@ -28,7 +28,7 @@ Rest of the page used Fha1
 
 ### Color palette 🌈
 
-60% Black and 40% Golden-Orange
+60% Black , 30% Golden-Orange and 10% Yellow
 
 ### Images 📷
 
