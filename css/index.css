@@ -652,8 +652,8 @@ footer .navbar a:hover {
     #imagentransitoria {
         background-image: none;
         box-shadow: none;
-        margin-top: 30px;
-        padding-top: 17%;}
+        margin-top: 27.5px;
+        padding-top: 4%;}
 
     #imagentransitoria:hover {box-shadow: inherit;}
 
@@ -717,17 +717,17 @@ footer .navbar a:hover {
     #imagentransitoria img {width: 95.5%; 
         margin-bottom: 16px;
         margin-top: 27px;
-        height: 49vh;}}
+        height: 49.5vh;}}
         
 @media only screen and (width <= 650px) { 
     #hero button {font-size: 1rem;}
 
-    #imagentransitoria img {height: 40.75vh;}
+    #imagentransitoria img {height: 45vh;}
 
     .voltage-button svg {width: 133.5px;height: 55px;}}
 
 @media only screen and (width < 400px) { 
-    #imagentransitoria img {height: 30vh;}
+    #imagentransitoria img {height: 35.33vh;}
 
     footer .navbar a{font-size: 1.3rem;}
 
