@@ -714,16 +714,21 @@ footer .navbar a:hover {
         margin-top: 0;
         margin-bottom: 0;}
 
-    #imagentransitoria img {width: 95%; 
+    #imagentransitoria img {width: 95.5%; 
         margin-bottom: 16px;
-        margin-top: 27px;}}
+        margin-top: 27px;
+        height: 49vh;}}
         
 @media only screen and (width <= 650px) { 
     #hero button {font-size: 1rem;}
 
+    #imagentransitoria img {height: 40.75vh;}
+
     .voltage-button svg {width: 133.5px;height: 55px;}}
 
 @media only screen and (width < 400px) { 
+    #imagentransitoria img {height: 30vh;}
+
     footer .navbar a{font-size: 1.3rem;}
 
     footer .redes {font-size: 1.1rem;}
