@@ -38,4 +38,4 @@ Taken from the internet to match the color palette. The specific credits are on 
 
 Two famous Steampunk videos taken from Youtube
 
-*This website only has educational and practising purposes and does not seek to profit from it.<br>Developed by David Solera Romero<br>All rights reserved for the respective authors of the images and animations*
+*This website only has educational and practising purposes and does not seek to profit from it.<br>Developed by David Solera Romero for the subject Lenguaje de Marcas in 1º DAM<br>All rights reserved for the respective authors of the images and animations*
