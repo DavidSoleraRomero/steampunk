@@ -27,6 +27,8 @@ Steampunk is an aesthetic genre that combines retro-futuristic elements, 19th-ce
 
 Thank you for exploring this fascinating retro-futuristic world, and hope that I can see you on my website!
 
+## Web page style 🖊️
+
 ### Fonts 🪧
 
 Titles and Footer Navigation Bar used Jack of Gears<br>
