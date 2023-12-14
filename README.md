@@ -54,4 +54,4 @@ You can find them on the website credits, but here is a recapitulation:<br>
 <p><b>Culture cards:</b> BEN ABBESS - codepen.io</p>
 <p><b>JavaScript scroll, parallax, grid gallery, overlay effect and Modal Box:</b> W3Schools</p>
 
-*This website only has educational and practising purposes and does not seek to profit from it.<br>Developed by David Solera Romero for the subject Lenguaje de Marcas in 1º DAM<br>All rights reserved for the respective authors of the images and animations*
+*This website only has educational and practising purposes and does not seek to profit from it.<br>Developed by David Solera Romero for the subject Lenguaje de Marcas in 1º DAM<br>All rights reserved for the respective authors of the images and animations<br>If I have not mentioned an author, please contact me via Social Network*
