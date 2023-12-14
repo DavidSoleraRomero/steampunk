@@ -14,6 +14,7 @@ Steampunk is an aesthetic genre that combines retro-futuristic elements, 19th-ce
 
 ### Structure - Featured Content - The website is made up of these sections 📋
 
+- 🧭**A beautiful Hero Section**
 - ⚙️ **Concept and Style:** Learn about the origins of Steampunk concept and its distinctive visual style.
    <img src="img/readme/concept.png" alt="Concept" width="300px" height="155px">
 - 🚂 **Steampunk Technology:** Explore ingenious technological creations that drive this retro-futuristic world.
@@ -22,13 +23,14 @@ Steampunk is an aesthetic genre that combines retro-futuristic elements, 19th-ce
    <img src="img/readme/culture.png" alt="Concept" width="300px" height="155px">
 - 🚀 **Space:** Explore Steampunk's space: brass rockets, celestial gears, and Victorian cosmic dreams.
    <img src="img/readme/space.png" alt="Concept" width="300px" height="155px">
+- 😶‍🌫️ **Footer:** Where you will find every single Credit, my Social Networks and another Navigation Bar
 
 Thank you for exploring this fascinating retro-futuristic world, and hope that I can see you on my website!
 
 ### Fonts 🪧
 
-Titles and Footer Nav Bar used Jack of Gears<br>
-Rest of the page used Fha1
+Titles and Footer Navigation Bar used Jack of Gears<br>
+Rest of the page used Fha1, both taken from 1001fonts.com
 
 ### Color palette 🌈
 
@@ -41,5 +43,15 @@ Taken from the internet to match the color palette. The specific credits are on 
 ### Videos 🎞️
 
 Two famous Steampunk videos taken from Youtube
+
+### Code Snippets 🛜
+
+You can find them on the website credits, but here is a recapitulation:<br>
+<p><b>Hero button animation:</b> Pradeepsaranbishnoi - uiverse.io</p>
+<p><b>Credits button animation:</b> vinodjangid07 - uiverse.io</p>
+<p><b>Top Nav Home Button animation:</b> oloblogger.com</p>
+<p><b>3D Carrousel:</b> Claudiu Lazar - codepen.io</p>
+<p><b>Culture cards:</b> BEN ABBESS - codepen.io</p>
+<p><b>JavaScript scroll, parallax, grid gallery, overlay effect and Modal Box:</b> W3Schools</p>
 
 *This website only has educational and practising purposes and does not seek to profit from it.<br>Developed by David Solera Romero for the subject Lenguaje de Marcas in 1º DAM<br>All rights reserved for the respective authors of the images and animations*
