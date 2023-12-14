@@ -24,6 +24,7 @@ Steampunk is an aesthetic genre that combines retro-futuristic elements, 19th-ce
 - 🚀 **Space:** Explore Steampunk's space: brass rockets, celestial gears, and Victorian cosmic dreams.<br>
    <img src="img/readme/space.png" alt="Concept" width="300px" height="155px">
 - 😶‍🌫️ **Footer:** Where you will find every single Credit, my Social Networks and another Navigation Bar
+- 📸 **Gallery:** You can find it in another web, with a lot of images (DALL E 3 generated them all!), at the Navigation Bar
 
 Thank you for exploring this fascinating retro-futuristic world, and hope that I can see you on my website!
 
