@@ -47,7 +47,7 @@ Taken from the internet to match the color palette. The specific credits are on 
 
 Two famous Steampunk videos taken from Youtube
 
-### Code Snippets 🛜
+### Code Snippets 👨‍💻
 
 You can find them on the website credits, but here is a recapitulation:<br>
 <p><b>Hero button animation:</b> Pradeepsaranbishnoi - uiverse.io</p>
